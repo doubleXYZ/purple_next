@@ -1,0 +1,13 @@
+.card {
+   width: 350px;
+   height: 400px;
+   padding: 10px;
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: column;
+}
+
+.card-img-top {
+  display: block;
+  margin-bottom: 16px;
+}

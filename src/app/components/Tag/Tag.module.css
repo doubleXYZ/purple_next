@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 44px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+    border-radius: 8px;
+    background: #303030;
+}
+
+.primary {
+    color: var(--white);
+    background-color: var(--grey);
+}
+
+.primary:hover {
+    background-color: var(--grey-light);
+}

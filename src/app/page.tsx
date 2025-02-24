@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 // import Image from "next/image";
 // import styles from "./page.module.css";
-import {Htag, Ptag, Button} from './components/index';
+import {Htag, Ptag, Button, Card} from './components/index';
 // import { HtagProps } from './components/Htag/Htag.props';
 
 export default function Home():JSX.Element {
@@ -12,6 +12,8 @@ export default function Home():JSX.Element {
           </Htag>
           <Ptag tag="p-read">hello</Ptag>
           <Button appearence="primary">Button</Button>
+
+          <Card />
       </div>
   );
 }
